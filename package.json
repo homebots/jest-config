@@ -1,12 +1,12 @@
 {
-    "name": "@cloud-cli/jest-config",
+    "name": "@homebots/jest-config",
     "version": "0.0.0",
     "description": "Shared Jest configurations",
     "main": "./index.ts",
     "types": "./index.ts",
     "repository": {
       "type": "git",
-      "url": "https://github.com/cloud-cli/jest-config.git"
+      "url": "https://github.com/homebots/jest-config.git"
     },
     "publishConfig": {
       "access": "public"
@@ -14,9 +14,9 @@
     "author": "Darlan Alves <me@darlanalv.es>",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/cloud-cli/jest-config/issues"
+      "url": "https://github.com/homebots/jest-config/issues"
     },
-    "homepage": "https://github.com/cloud-cli/jest-config#readme",
+    "homepage": "https://github.com/homebots/jest-config#readme",
     "dependencies": {
       "@types/jest": "^26.0.23",
       "jest": "^27.0.4",

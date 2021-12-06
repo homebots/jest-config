@@ -1,28 +1,33 @@
 {
-    "name": "@homebots/jest-config",
-    "version": "0.0.0",
-    "description": "Shared Jest configurations",
-    "main": "./index.ts",
-    "types": "./index.ts",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/homebots/jest-config.git"
-    },
-    "publishConfig": {
-      "access": "public"
-    },
-    "author": "Darlan Alves <me@darlanalv.es>",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/homebots/jest-config/issues"
-    },
-    "homepage": "https://github.com/homebots/jest-config#readme",
-    "dependencies": {
-      "@types/jest": "^26.0.23",
-      "jest": "^27.0.4",
-      "ts-jest": "^27.0.3",
-      "ts-node": "^10.0.0",
-      "typescript": "^4.4.2"
-    }
+  "name": "@homebots/jest-config",
+  "version": "0.0.0",
+  "description": "Shared Jest configurations",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homebots/jest-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Darlan Alves <me@darlanalv.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homebots/jest-config/issues"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "homepage": "https://github.com/homebots/jest-config#readme",
+  "dependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.4.2"
   }
-  
+}

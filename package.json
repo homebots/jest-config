@@ -2,7 +2,7 @@
   "name": "@homebots/jest-config",
   "version": "0.0.0",
   "description": "Shared Jest configurations",
-  "main": "./index.ts",
+  "main": "./index.js",
   "types": "./index.ts",
   "repository": {
     "type": "git",

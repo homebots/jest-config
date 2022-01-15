@@ -2,11 +2,15 @@ export default {
   cache: true,
   clearMocks: true,
   collectCoverage: true,
-  coverageDirectory: 'coverage',
   maxWorkers: 1,
-  preset: 'ts-jest',
-  transform: {},
+  coverageProvider: 'babel',
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+  ],
   extensionsToTreatAsEsm: ['.ts'],
+  transform: {
+    '^.+\\.ts$': 'ts-jest',
+  },
   slowTestThreshold: 1,
   coverageThreshold: {
     global: {
@@ -16,4 +20,7 @@ export default {
       statements: 100,
     },
   },
+  moduleFileExtensions: ['js', 'ts'],
+  testEnvironment: 'node',
+  verbose: false,
 };
